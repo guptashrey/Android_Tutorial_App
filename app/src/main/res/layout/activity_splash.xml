@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context="net.shreygupta.tutorial.SplashActivity"
+    tools:ignore="Overdraw">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_marginTop="160dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:text="Android Tutorials"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="monospace"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:textAlignment="viewEnd"
+        android:layout_below="@id/tv"
+        android:textStyle="italic"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="where everyone can learn..."
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimaryDark"
+        tools:ignore="HardcodedText" />
+
+
+    <ProgressBar
+        android:layout_centerInParent="true"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@color/grey"/>
+
+</RelativeLayout>

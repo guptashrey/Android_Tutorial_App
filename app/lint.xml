@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconDuplicates">
+        <ignore path="src/main/res/drawable/r10.png" />
+        <ignore path="src/main/res/drawable/r11.png" />
+        <ignore path="src/main/res/drawable/r12.png" />
+        <ignore path="src/main/res/drawable/r13.png" />
+        <ignore path="src/main/res/drawable/r19.png" />
+        <ignore path="src/main/res/drawable/r5.png" />
+        <ignore path="src/main/res/drawable/r7.png" />
+        <ignore path="src/main/res/drawable/r9.png" />
+    </issue>
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/r1.jpg" />
+        <ignore path="src/main/res/drawable/r10.png" />
+        <ignore path="src/main/res/drawable/r11.png" />
+        <ignore path="src/main/res/drawable/r12.png" />
+        <ignore path="src/main/res/drawable/r13.png" />
+        <ignore path="src/main/res/drawable/r14.png" />
+        <ignore path="src/main/res/drawable/r15.png" />
+        <ignore path="src/main/res/drawable/r16.png" />
+        <ignore path="src/main/res/drawable/r17.png" />
+        <ignore path="src/main/res/drawable/r18.png" />
+        <ignore path="src/main/res/drawable/r19.png" />
+        <ignore path="src/main/res/drawable/r2.png" />
+        <ignore path="src/main/res/drawable/r20.png" />
+        <ignore path="src/main/res/drawable/r3.jpg" />
+        <ignore path="src/main/res/drawable/r4.png" />
+        <ignore path="src/main/res/drawable/r5.png" />
+        <ignore path="src/main/res/drawable/r6.png" />
+        <ignore path="src/main/res/drawable/r7.png" />
+        <ignore path="src/main/res/drawable/r8.png" />
+        <ignore path="src/main/res/drawable/r9.png" />
+    </issue>
+</lint>
