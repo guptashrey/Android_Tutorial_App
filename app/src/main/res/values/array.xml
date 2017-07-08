@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items">
+        <item>History</item>
+        <item>Life Cycle</item>
+        <item>Orientation</item>
+        <item>Log</item>
+        <item>Class</item>
+        <item>Event</item>
+        <item>Handling</item>
+        <item>Context</item>
+        <item>View and View Group</item>
+        <item>Layout Inflator</item>
+        <item>Margin</item>
+        <item>Padding</item>
+        <item>Text View</item>
+        <item>Edit Text</item>
+        <item>Check Box</item>
+        <item>Radio Button</item>
+        <item>Layouts</item>
+        <item>Linear Layout</item>
+        <item>Relative Layout</item>
+        <item>Table Layout</item>
+        <item>Grid Layout</item>
+    </string-array>
+</resources>

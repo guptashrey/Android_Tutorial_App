@@ -8,32 +8,24 @@
     tools:context="net.shreygupta.tutorial.TopicChooseActivity"
     tools:ignore="Overdraw">
 
-    <LinearLayout
+    <TextView
+        android:textStyle="italic"
+        android:padding="10dp"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:text="Select topic from the list below:"
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimaryDark"
+        tools:ignore="HardcodedText" />
 
-        <TextView
-            android:textStyle="italic"
-            android:padding="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Select topic from the list below:"
-            android:textSize="22sp"
-            android:textColor="#fff"
-            android:background="@color/colorPrimaryDark"
-            tools:ignore="HardcodedText" />
+    <ListView
+        android:layout_margin="10dp"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
 
-        <ListView
-            android:layout_margin="10dp"
-            android:id="@+id/list"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#fff">
-
-        </ListView>
-
-    </LinearLayout>
+    </ListView>
 
 </LinearLayout>
